@@ -1,0 +1,60 @@
+body{
+line-height: 90%;
+
+}
+
+
+* {
+text-align: center;
+
+}
+
+nav {
+    background-color: #77AFCE; 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+#main-menu {
+    display: flex;
+    gap: 50px;
+}
+
+#main-menu li {
+    list-style: none;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-family: "Lilita One", sans-serif;
+}
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: white;
+    border-width: 0;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#main-menu .dropdown {
+    background-color: #77AFCE;
+    color: #145071;
+    margin: 0px;
+    padding: 20px;
+    position: absolute;
+    display: none;
+}
+
+#main-menu .dropdown a {
+    color: rgb(255, 255, 255);
+}
+
+#main-menu .sub-menu:hover .dropdown {
+    display: block;
+}
