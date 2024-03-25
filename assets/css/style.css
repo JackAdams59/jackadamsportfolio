@@ -1,6 +1,6 @@
 body{
 line-height: 90%;
-
+text-align: center;
 }
 
 
@@ -19,21 +19,24 @@ nav {
 #main-menu {
     display: flex;
     gap: 50px;
+    text-align: center;
 }
 
 #main-menu li {
     list-style: none;
+    text-align: center;
 }
 
 .logo {
     color: white;
     font-size: 32px;
-    font-family: "Lilita One", sans-serif;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 #main-menu button, #main-menu a {
     background-color: transparent;
-    font-family: "Nunito", sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
     color: white;
     border-width: 0;
@@ -49,12 +52,20 @@ nav {
     padding: 20px;
     position: absolute;
     display: none;
+    text-align: center;
 }
 
 #main-menu .dropdown a {
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 #main-menu .sub-menu:hover .dropdown {
     display: block;
+}
+
+h2 {
+line-height: 100%;
+text-align: justify;
+
 }
