@@ -10,3 +10,7 @@ if(jQuery) {console.log ("jQuery Loaded")
 else {
     console.log ("no jQuery")
 }
+
+
+
+
