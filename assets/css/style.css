@@ -1,20 +1,27 @@
 body{
 line-height: 90%;
 text-align: center;
+background-color:powderblue;
 }
 
 
 * {
 text-align: center;
-
 }
 
 nav {
-    background-color: #77AFCE; 
+    background-color: #3B7DA2; 
     display: flex;
     justify-content: space-between;
     padding: 20px 10%;
 }
+
+li:hover, li:focus-within {
+    color:deeppink;
+    cursor: pointer;
+
+}
+
 
 #main-menu {
     display: flex;
@@ -32,6 +39,7 @@ nav {
     font-size: 32px;
     font-family: sans-serif;
     text-align: center;
+    line-height: 200%;
 }
 
 #main-menu button, #main-menu a {
@@ -43,12 +51,14 @@ nav {
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+ line-height: 200%;
 }
 
 #main-menu .dropdown {
     background-color: #77AFCE;
     color: #145071;
     margin: 0px;
+    margin-left: -38px;
     padding: 20px;
     position: absolute;
     display: none;
@@ -62,10 +72,44 @@ nav {
 
 #main-menu .sub-menu:hover .dropdown {
     display: block;
+
 }
 
 h2 {
-line-height: 100%;
+    line-height: 100%;
 text-align: justify;
-
 }
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  #submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  #submit:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
