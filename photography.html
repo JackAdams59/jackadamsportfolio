@@ -4,13 +4,14 @@
         <title>jack adams portfolio</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <meta name=”viewport” content=”width = device-width, initial-scale=1”>
-        <link rel="icon" type="image/x-icon" href="(path to your image)">
+        <link rel="icon" type="image/x-icon" href="assets/images/Jlogo1.png">
 
     </head>
-<body>
+
 <nav>
-<span class="logo"> Jack Adams Portfolio</span>
-<menu id="main-menu">
+  <span class="logo"> 
+    <a href="index.html"> <img src="assets/images/Jlogo1.png" width="60px" id="image100" alt="j in circle">Jack Adams Portfolio</a>
+</span><menu id="main-menu">
     <li><a href="index.html">Home</a></li>
 
     <li class="sub-menu">
@@ -18,7 +19,7 @@
         <menu class="dropdown">
             <li><a href="digital.html">Digital</a></li>
             <li><a href="photography.html">Photography</a></li>
-            <li><a href="physical.html">Physical</a></li>
+            <li><a href="physical.html">Fine Art</a></li>
         </menu>
     </li>
      <li><a href="contact.html">Contact</a></li>
@@ -26,5 +27,75 @@
      
         </menu>
       
-       <body style="background-color:powderblue;">
+       
 </nav>
+<br>
+
+<body>
+<h1>
+    My Photography Art :3
+</h1>
+
+
+
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+    <div class="splide__track">
+          <ul class="splide__list">
+              <li class="splide__slide">
+                  <img src="assets/images/IMG_0310.JPG" alt="Shutter Speed Experiment">
+                  <h1>Shutter Speed Experiment 2023</h1>
+                  <h3>
+                This was a photo I had taken when I was first experimenting with shutter speed, light exposure, and F-stop. To capture this image I went to a small overpass about five minutes away from where I lived and set up my camera on a tripod and took pictures of the highway as cars passed to get the trail effect coming off of the cars rear lights.
+                  </h3>
+              </li>
+              <li class="splide__slide">
+                  <img src="assets/images/IMG_0351.jpg" alt="B&W Photo of hands">
+                  <h1>B&W Photo of Hands 2023</h1>
+                  <h3>
+Here is a photo I took of my dad doing an oil change for my photography class in 2023. I specifically zoomed in on his hands because I wanted to experiment with telling narrative and story about a person without shooting their face. I really enjoyed this project and this is one of my favorite photos I took.
+                  </h3>
+              </li>
+              <li class="splide__slide">
+                  <img src="assets/images/IMG_0336.jpg" alt="B&W Photo of my dad">
+                  <h1>B&W Oil Change 2023</h1>
+                  <h3>
+                    Here is a photo I took of my dad doing an oil change for my photography class in 2023. It is another photo from the same shooting series as the one prior, I really enjoy how this one came out as well. I think this photo captures my dad's image very well.
+                  </h3>
+              </li>
+              <li class="splide__slide">
+                <img src="assets/images/IMG_0544.jpg" alt="Final Project">
+                <h1>Final Project Portrait Shot 2023</h1>
+                <h3>
+This is one of the photos I took for my final project for my photography class in 2023. It is a picture of my mom at the dining room table in my house eating a PB&J with one of my dogs jumping into frame at the same time. I think the aspect I enjoy the most about this photo is the composition of the subjects and items within the frame.
+                </h3>
+            </li>
+            <li class="splide__slide">
+              <img src="assets/images/Photo5 I Like It Project.jpg" alt="'I like it' Project">
+              <h1>"I Like It Project" 2023</h1>
+              <h3>
+Here is a photo I took in 2023 for a project in my photography class. For this project I was tasked with photographing something, someone, or a place that has significant meaning in my life. I chose my dad and photographed him in front of a piece of art I made where he was also the subject. I found this fitting because not only does my dad have significant meaning in my life but he has also modeled and helped me with my art endeavors all throughout my college career. :'D 
+              </h3>
+          </ul>
+    </div>
+  </section>
+
+
+  <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+<script>
+    new Splide( '#image-carousel' ).mount();
+  </script>
+
+<script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+      new Splide( '#image-carousel',{
+      } ).mount();
+    } );
+  </script>
+
+</body>

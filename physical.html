@@ -4,13 +4,14 @@
         <title>jack adams portfolio</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <meta name=”viewport” content=”width = device-width, initial-scale=1”>
-        <link rel="icon" type="image/x-icon" href="(path to your image)">
+        <link rel="icon" type="image/x-icon" href="assets/images/Jlogo1.png">
 
     </head>
 <body>
 <nav>
-<span class="logo"> Jack Adams Portfolio</span>
-<menu id="main-menu">
+  <span class="logo"> 
+    <a href="index.html"> <img src="assets/images/Jlogo1.png" width="60px" id="image100" alt="j in circle">Jack Adams Portfolio</a>
+</span><menu id="main-menu">
     <li><a href="index.html">Home</a></li>
 
     <li class="sub-menu">
@@ -18,7 +19,7 @@
         <menu class="dropdown">
             <li><a href="digital.html">Digital</a></li>
             <li><a href="photography.html">Photography</a></li>
-            <li><a href="physical.html">Physical</a></li>
+            <li><a href="physical.html">Fine Art</a></li>
         </menu>
     </li>
      <li><a href="contact.html">Contact</a></li>
@@ -26,5 +27,70 @@
      
         </menu>
       
-       <body style="background-color:powderblue;">
+      
 </nav>
+
+<h1> My Fine Arts Work :P</h1>
+
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+    <div class="splide__track">
+          <ul class="splide__list">
+              <li class="splide__slide">
+                  <img src="assets/images/Horse.jpg" alt="Horse Painting">
+                  <h1>Horse Painting 2022</h1>
+                  <h3>
+                    This is a painting I did in 2022. It is oil paint on a 24x36 inch canvas. It features a realist depiction of the upper portion of a horse on a green background.
+                  </h3>
+              </li>
+              <li class="splide__slide">
+                  <img src="assets/images/Shoes.jpg" alt="Shoe Drawing">
+                  <h1>Perspective Drawing 2022</h1>
+                  <h3>
+                    This is a drawing I made in 2022 for my Drawing 1 course. I used charcoal on drawing paper to make this depiction of my converse chuck taylor all star shoes. This drawing was a demonstration in proportion, forshadowing, value/shadow, and perspective. I used my dad as the subject and drew him at his desk while he was working on his computer. This project was an exercise in value, foreshortening, perspective, and proportion. I used charcoal and drawing paper to make this piece.
+                  </h3>
+              </li>
+              <li class="splide__slide">
+                <img src="assets/images/1d673b50-aac4-4763-8860-f76df5f64843.1280x1280.jpg" alt="Full Body Drawing">
+                <h1>Full Body Drawing 2023</h1>
+                <h3>
+                    Here is a drawing I did in 2023. I used my dad as the subject and drew him at his desk while he was working on his computer. This project was an exercise in value, foreshortening, perspective, and proportion. I used charcoal and drawing paper to make this piece.
+                </h3>
+            </li>
+            <li class="splide__slide">
+                <img src="assets/images/Glass.jpg" alt="Glass Drawing">
+                <h1>Glass Drawing 2022</h1>
+                <h3>
+This is a drawing I made for my Drawing 1 course in 2022. It is an array of 3 glasses I drew from life. This project was used as a way to experiment with drawing transparent and translucent objects using white conte crayon. I used white conte crayon, and black drawing paper to make this drawing.
+                </h3>
+            </li>
+            <li class="splide__slide">
+                <img src="assets/images/29a285a7-cc5a-489d-81d0-bdb04e9af9d8.1280x1280.jpg" alt="Collage">
+                <h1>Collage 2023</h1>
+                <h3>
+Here is a collage I made in 2023 for my Drawing 2 course. It is an abstract depiction of my dad sitting in a chair. I achieved this by making a solid black silhouette of the figure using ink and marker. I also took clothing items and placed them over the silhouette in an attempt to personify the figure. These clothing items are directly from and worn by dad, they include a shirt and the stem of a pair of his glasses. For this project I used marker, ink, water color, and collage on drawing paper.
+                </h3>
+
+          </ul>
+    </div>
+  </section>
+
+
+  <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+<script>
+    new Splide( '#image-carousel' ).mount();
+  </script>
+
+<script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+      new Splide( '#image-carousel',{
+      } ).mount();
+    } );
+  </script>
+
+</body>
