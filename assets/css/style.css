@@ -126,6 +126,8 @@ z-index: 1000;
 #main-menu .sub-menu:hover {
 padding: 10px;
 }
+
+
 #main-menu .dropdown a {
     color: white;
     text-align: center;
@@ -248,7 +250,7 @@ input[type=text], select, textarea {
         background: white;
         cursor: pointer;
         transition-duration: 0.4s;
-
+        color: black;
        }
        
        
