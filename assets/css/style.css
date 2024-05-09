@@ -36,7 +36,7 @@ transition-duration: 0.4s;
     padding-top: 24px;
       z-index: 1000;
       
-      
+
 
 }
 
@@ -85,7 +85,7 @@ transition-duration: 0.4s;
 .logo {
     color: white;
     font-size: 40px;
-    font-family: sans-serif;
+    font-family: "Pacifico";
     text-align: center;
     text-decoration: none;
     line-height: 170%;
