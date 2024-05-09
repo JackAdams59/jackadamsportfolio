@@ -68,6 +68,8 @@ transition-duration: 0.4s;
 .logo a {
   text-decoration: none;
   color: white;
+  font-weight: 400px;
+  font-family: "Pacifico";
 
 }
 
